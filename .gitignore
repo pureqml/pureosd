@@ -1,0 +1,4 @@
+.cache
+*.swp
+*.swo
+build.*
