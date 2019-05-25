@@ -1,5 +1,14 @@
 {
-	"name": "octoosd",
+	"name": "pureosd",
 	"platforms": ["web"],
-	"minify": true
+	"properties": {
+		"title": "pureosd",
+		"author": {
+			"name": "Alexey Pobery",
+			"email": "poberyaa@gmail.com",
+			"organization": "pureqml",
+			"site": "https://pureqml.com/"
+		}
+	},
+	"templater": "jinja2"
 }
