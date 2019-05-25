@@ -2,6 +2,7 @@ MouseArea {
 	id: menuDelegateProto;
 	signal itemFocused;
 	signal itemSelected;
+	property bool isCurrent: parent.currentIndex == model.index;
 	property Object content: model.content;
 	height: 320 + topLabel.paintedHeight + 30;
 	width: parent.width;
@@ -51,6 +52,8 @@ MouseArea {
 			row.height = itemBox[3]
 			menuDelegateProto.itemSelected(row)
 		}
+
+		onCountChanged: { if (value && menuDelegateProto.isCurrent) this.choose() }
 	}
 
 	onActiveFocusChanged: {
