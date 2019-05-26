@@ -21,20 +21,24 @@ Item {
 		source: model.icon;
 	}
 
-	Item {
+	Rectangle {
+		anchors.fill: iconImage;
+		color: "#0000";
+		border.color: octoColors.accentColor;
+		border.width: 5;
+		opacity: parent.activeFocus ? 1.0 : 0.0;
+
+		Behavior on opacity { Animation { duration: 200; } }
+	}
+
+	Rectangle {
 		height: mediTitle.paintedHeight + 15;
 		anchors.left: iconImage.left;
 		anchors.right: iconImage.right;
 		anchors.bottom: iconImage.bottom;
 		clip: true;
-
-		Rectangle {
-			anchors.fill: parent;
-			color: mediaDelegateProto.activeFocus ? octoColors.accentColor : octoColors.panelColor;
-			opacity: mediaDelegateProto.activeFocus ? 1.0 : 0.8;
-
-			Behavior on color { ColorAnimation { duration: 200; } }
-		}
+		color:octoColors.accentColor;
+		opacity: mediaDelegateProto.activeFocus ? 1.0 : 0.0;
 
 		TinyText {
 			id: mediTitle;
@@ -50,15 +54,6 @@ Item {
 			text: model.text;
 			clip: true;
 		}
-	}
-
-	Rectangle {
-		id: focusBorder;
-		anchors.fill: iconImage;
-		color: "#0000";
-		border.color: octoColors.accentColor;
-		border.width: 5;
-		opacity: parent.activeFocus ? 1.0 : 0.0;
 
 		Behavior on opacity { Animation { duration: 200; } }
 	}
