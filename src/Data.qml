@@ -19,19 +19,6 @@ Object {
 			"channels":
 			[
 				{
-					"text": "Первый",
-					"icon": "res/channels/icons/1.png",
-					"preview": ["res/channels/preview/1.png"],
-					"color": "#00387f",
-					"url": "",
-					"program":
-					{
-						"title": "Пусть говорят",
-						"description": "Говорят, что \"словом делу не поможешь\", но программа \"Пусть говорят\" это опровергает. Настоящие, невыдуманные истории людей.",
-						"startTime": "20:00",
-						"stopTime": "21:00"
-					}
-				}, {
 					"text": "Discovery",
 					"icon": "res/channels/icons/2.png",
 					"preview": ["res/channels/preview/2.png"],

@@ -1,4 +1,4 @@
-MouseArea {
+Item {
 	id: menuDelegateProto;
 	signal itemFocused;
 	signal itemSelected;
@@ -29,6 +29,8 @@ MouseArea {
 		orientation: ListView.Horizontal;
 		positionMode: ListView.Center;
 		keyNavigationWraps: false;
+		content.cssTranslatePositioning: true;
+		animationDuration: 300;
 		model: menuDelegateModel;
 		delegate: MediaDelegate { }
 		spacing: 10;

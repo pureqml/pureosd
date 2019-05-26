@@ -17,7 +17,6 @@ Item {
 		anchors.fill: context;
 		autoPlay: true;
 		focus: false;
-		loop: true;
 
 		onPausedChanged: { if (value) this.playVideo("") }
 

@@ -15,6 +15,8 @@ Item {
 		anchors.fill: parent;
 		keyNavigationWraps: false;
 		positionMode: ListView.Center;
+		content.cssTranslatePositioning: true;
+		animationDuration: 300;
 		model: menuModel;
 		delegate: MenuDelegate {
 			onItemFocused(item): {

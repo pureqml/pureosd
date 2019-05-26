@@ -2,13 +2,12 @@ Item {
 	id: mediaDelegateProto;
 	width: iconImage.defaultWidth + 20;
 	height: iconImage.defaultHeight;
+	transform.scaleX: activeFocus ? 1.075 : 1.0;
+	transform.scaleY: activeFocus ? 1.075 : 1.0;
 
 	Rectangle {
 		anchors.fill: iconImage;
 		color: model.color ? model.color : "#0000";
-		//effects.shadow.color: parent.activeFocus ? "#000" : "#0000";
-		//effects.shadow.spread: 8;
-		//effects.shadow.blur: 10;
 	}
 
 	Image {
@@ -17,11 +16,9 @@ Item {
 		property int defaultHeight: context.height * 2.3 / 7;
 		anchors.centerIn: parent;
 		width: height - 100;
-		height: parent.activeFocus ? defaultHeight + 20 : defaultHeight;
+		height: defaultHeight;
 		fillMode: Image.Stretch;
 		source: model.icon;
-
-		//Behavior on height { Animation { duration: 300; } }
 	}
 
 	Item {
@@ -65,4 +62,6 @@ Item {
 
 		Behavior on opacity { Animation { duration: 200; } }
 	}
+
+	Behavior on transform { Animation { duration: 200; } }
 }
