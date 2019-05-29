@@ -32,11 +32,9 @@ Item {
 
 		Image {
 			id: infoPanelImage;
-			//width: 160;
 			anchors.top: parent.top;
 			anchors.left: parent.left;
 			anchors.bottom: parent.bottom;
-			//fillMode: Image.Stretch;
 		}
 
 		Column {
