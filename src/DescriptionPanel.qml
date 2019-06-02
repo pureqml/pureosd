@@ -12,7 +12,7 @@ Rectangle {
 		width: height + 500;
 		height: descriptionPoster.height;
 		anchors.centerIn: parent;
-		color: octoColors.panelColor;
+		color: colorTheme.panelColor;
 		effects.shadow.x: 2;
 		effects.shadow.y: 2;
 		effects.shadow.blur: 10;
@@ -45,7 +45,7 @@ Rectangle {
 					id: descriptionTitle;
 					anchors.top: parent.top;
 					anchors.left: parent.left;
-					color: octoColors.textColor;
+					color: colorTheme.textColor;
 				}
 
 				MainText {
@@ -55,7 +55,7 @@ Rectangle {
 					anchors.bottom: descriptionTitle.bottom;
 					anchors.leftMargin: 10;
 					anchors.bottomMargin: 3;
-					color: octoColors.subTextColor;
+					color: colorTheme.subTextColor;
 				}
 
 				SmallText {
@@ -63,7 +63,7 @@ Rectangle {
 					anchors.top: descriptionTitle.bottom;
 					anchors.left: parent.left;
 					anchors.right: parent.right;
-					color: octoColors.subTextColor;
+					color: colorTheme.subTextColor;
 				}
 
 				Column {
@@ -75,17 +75,17 @@ Rectangle {
 
 					SmallText {
 						id: descriptionGenres;
-						color: octoColors.textColor;
+						color: colorTheme.textColor;
 					}
 
 					SmallText {
 						id: descriptionDirector;
-						color: octoColors.textColor;
+						color: colorTheme.textColor;
 					}
 
 					SmallText {
 						id: descriptionDuration;
-						color: octoColors.textColor;
+						color: colorTheme.textColor;
 					}
 
 					Item {
@@ -101,7 +101,7 @@ Rectangle {
 							anchors.left: imdbIcon.right;
 							anchors.verticalCenter: imdbIcon.verticalCenter;
 							anchors.leftMargin: 10;
-							color: octoColors.textColor;
+							color: colorTheme.textColor;
 						}
 					}
 				}
@@ -112,12 +112,12 @@ Rectangle {
 					anchors.left: parent.left;
 					anchors.right: parent.right;
 					anchors.topMargin: 20;
-					color: octoColors.textColor;
+					color: colorTheme.textColor;
 					wrapMode: Text.WordWrap;
 				}
 			}
 
-			OctoButton {
+			TextButton {
 				id: playButton;
 				anchors.left: parent.left;
 				anchors.right: parent.right;

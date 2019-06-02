@@ -24,7 +24,7 @@ Item {
 	Rectangle {
 		anchors.fill: iconImage;
 		color: "#0000";
-		border.color: octoColors.accentColor;
+		border.color: colorTheme.accentColor;
 		border.width: 5;
 		opacity: parent.activeFocus ? 1.0 : 0.0;
 
@@ -37,7 +37,7 @@ Item {
 		anchors.right: iconImage.right;
 		anchors.bottom: iconImage.bottom;
 		clip: true;
-		color:octoColors.accentColor;
+		color:colorTheme.accentColor;
 		opacity: mediaDelegateProto.activeFocus ? 1.0 : 0.0;
 
 		TinyText {
@@ -50,7 +50,7 @@ Item {
 			anchors.rightMargin: overriden ? 5 : 0;
 			anchors.bottomMargin: 8;
 			horizontalAlignment: overriden ? Text.AlignLeft : Text.AlignHCenter;
-			color: octoColors.textColor;
+			color: colorTheme.textColor;
 			text: model.text;
 			clip: true;
 		}

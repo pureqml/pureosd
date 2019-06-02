@@ -1,7 +1,7 @@
 Rectangle {
 	id: buttonProto;
 	property string text: "";
-	color: activeFocus ? octoColors.accentColor : octoColors.focusablePanelColor;
+	color: activeFocus ? colorTheme.accentColor : colorTheme.focusablePanelColor;
 	height: buttonInnerText.paintedHeight + 20;
 	width: buttonInnerText.paintedWidth + 20;
 	radius: 4;
@@ -10,7 +10,7 @@ Rectangle {
 	MainText {
 		id: buttonInnerText;
 		anchors.centerIn: parent;
-		color: octoColors.textColor;
+		color: colorTheme.textColor;
 		text: buttonProto.text;
 	}
 

@@ -14,7 +14,7 @@ Item {
 		anchors.top: parent.top;
 		anchors.left: parent.left;
 		anchors.leftMargin: 10;
-		color: octoColors.textColor;
+		color: colorTheme.textColor;
 		text: model.text;
 		font.shadow: true;
 	}

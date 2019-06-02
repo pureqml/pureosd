@@ -4,7 +4,7 @@ ActivityManager {
 	property string mountedPath;
 	anchors.fill: context;
 
-	OctoColors { id: octoColors; }
+	ColorTheme { id: colorTheme; }
 
 	//@using { src.OsdPage }
 	LazyActivity { name: "osd"; component: "src.OsdPage"; }

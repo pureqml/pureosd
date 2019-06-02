@@ -11,7 +11,7 @@ Activity {
 
 	BackgroundPreview { id: bgPreview; }
 
-	OctoMenu {
+	Menu {
 		id: menu;
 		anchors.fill: parent;
 		anchors.topMargin: 70;

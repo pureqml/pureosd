@@ -21,7 +21,7 @@ Item {
 	Rectangle {
 		id: innerPanel;
 		anchors.fill: parent;
-		color: octoColors.panelColor;
+		color: colorTheme.panelColor;
 		clip: true;
 
 		Rectangle {
@@ -48,18 +48,18 @@ Item {
 			visible: !infoPanelProto.isChannel;
 
 			MainText {
-				color: octoColors.textColor;
+				color: colorTheme.textColor;
 				text: infoPanelProto.title;
 			}
 
 			MainText {
-				color: octoColors.subTextColor;
+				color: colorTheme.subTextColor;
 				text: infoPanelProto.year;
 			}
 
 			MainText {
 				height: paintedHeight + 20;
-				color: octoColors.textColor;
+				color: colorTheme.textColor;
 				text: infoPanelProto.duration;
 			}
 		}
@@ -80,7 +80,7 @@ Item {
 				anchors.top: parent.top;
 				anchors.left: parent.left;
 				anchors.bottom: parent.bottom;
-				color: octoColors.accentColor;
+				color: colorTheme.accentColor;
 			}
 		}
 
@@ -88,7 +88,7 @@ Item {
 			anchors.top: infoPanelShort.bottom;
 			anchors.left: infoPanelShort.left;
 			anchors.right: infoPanelShort.right;
-			color: octoColors.textColor;
+			color: colorTheme.textColor;
 			text: infoPanelProto.description;
 			wrapMode: Text.WordWrap;
 		}
