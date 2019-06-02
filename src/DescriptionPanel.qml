@@ -13,11 +13,6 @@ Rectangle {
 		height: descriptionPoster.height;
 		anchors.centerIn: parent;
 		color: colorTheme.panelColor;
-		effects.shadow.x: 2;
-		effects.shadow.y: 2;
-		effects.shadow.blur: 10;
-		effects.shadow.color: "#000";
-		effects.shadow.spread: 2;
 
 		Image {
 			id: descriptionPoster;
