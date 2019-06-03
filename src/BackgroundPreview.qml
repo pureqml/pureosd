@@ -2,6 +2,7 @@ Image {
 	id: backgroundPreviewProto;
 	property string preview: "";
 	anchors.fill: parent;
+	fillMode: Image.PreserveAspectCrop;
 	focus: false;
 
 	Rectangle {
