@@ -68,19 +68,19 @@ Rectangle {
 					anchors.right: parent.right;
 					anchors.topMargin: 10;
 
-					SmallText {
+					KeyValueText {
 						id: descriptionGenres;
-						color: colorTheme.textColor;
+						key: "Director:";
 					}
 
-					SmallText {
+					KeyValueText {
 						id: descriptionDirector;
-						color: colorTheme.textColor;
+						key: "Genres:";
 					}
 
 					SmallText {
 						id: descriptionDuration;
-						color: colorTheme.textColor;
+						color: colorTheme.subTextColor;
 					}
 
 					Item {
@@ -96,7 +96,7 @@ Rectangle {
 							anchors.left: imdbIcon.right;
 							anchors.verticalCenter: imdbIcon.verticalCenter;
 							anchors.leftMargin: 10;
-							color: colorTheme.textColor;
+							color: colorTheme.subTextColor;
 						}
 					}
 				}
@@ -140,10 +140,10 @@ Rectangle {
 		descriptionSlogan.text = info.slogan ? info.slogan : ""
 		descriptionText.text = info.description
 		descriptionYear.text = info.year.toString()
-		descriptionDirector.text = "Director: " + info.director
+		descriptionDirector.value = info.director
 		descriptionDuration.text = info.duration.toString() + " min"
 		descriptionRating.text = info.rating.imdb.toString()
-		descriptionGenres.text = "Genres: " + info.genre[0]
+		descriptionGenres.value = info.genre[0]
 
 		for (var i = 1; i < info.genre.length; ++i)
 			descriptionGenres.text += ", " + info.genre[i]
