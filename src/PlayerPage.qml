@@ -19,8 +19,10 @@ Activity {
 	PlayerOsd {
 		id: playerOsd;
 
+		onLeftPressed: { player.seek(-10) }
+		onRightPressed: { player.seek(10) }
+
 		onSelectPressed: {
-			log("PP", player.paused)
 			if (player.paused)
 				player.play()
 			else
