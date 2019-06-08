@@ -143,7 +143,7 @@ Object {
 					"url": "",
 					"movieInfo": {
 						"title": "Law Abiding Citizen",
-						"slogan": "They killed his family. Now justice is his vengeance. (UK Quad) See more »",
+						"slogan": "They killed his family. Now justice is his vengeance",
 						"description": "A frustrated man decides to take justice into his own hands after a plea bargain sets one of his family's killers free. He targets not only the killer but also the district attorney and others involved in the deal.",
 						"year": "2009",
 						"duration": 109,
@@ -569,7 +569,7 @@ Object {
 					"url": "",
 					"movieInfo": {
 						"title": "Law Abiding Citizen",
-						"slogan": "They killed his family. Now justice is his vengeance. (UK Quad) See more »",
+						"slogan": "They killed his family. Now justice is his vengeance",
 						"description": "A frustrated man decides to take justice into his own hands after a plea bargain sets one of his family's killers free. He targets not only the killer but also the district attorney and others involved in the deal.",
 						"year": "2009",
 						"duration": 109,

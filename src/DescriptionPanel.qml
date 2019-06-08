@@ -103,12 +103,25 @@ Rectangle {
 
 				SmallText {
 					id: descriptionText;
+					height: 130;
 					anchors.top: shortInfoLayout.bottom;
 					anchors.left: parent.left;
 					anchors.right: parent.right;
 					anchors.topMargin: 20;
 					color: colorTheme.textColor;
 					wrapMode: Text.WordWrap;
+					clip: true;
+
+					onCompleted: {
+						var lines = 5
+						this.style("display", "block");
+						this.style("display", "-webkit-box");
+						this.style("text-overflow", "ellipsis");
+						this.style('box-orient', "vertical");
+						this.style('-webkit-box-orient', "vertical");
+						this.style('line-clamp', lines);
+						this.style('-webkit-line-clamp', lines);
+					}
 				}
 			}
 
