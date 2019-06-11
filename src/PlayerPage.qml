@@ -9,6 +9,14 @@ Activity {
 	}
 
 	Image {
+		width: 5%;
+		height: width;
+		anchors.centerIn: parent;
+		source: "res/spinner.gif";
+		visible: player.waiting || player.seeking;
+	}
+
+	Image {
 		width: 10%;
 		height: width;
 		anchors.centerIn: parent;
