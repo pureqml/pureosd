@@ -1,6 +1,6 @@
 {
 	"name": "pureosd",
-	"platforms": ["web"],
+	"platforms": ["web", "webos", "tizen", "netcast", "orsay", "androidtv"],
 	"properties": {
 		"title": "pureosd",
 		"author": {
