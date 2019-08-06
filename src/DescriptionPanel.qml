@@ -43,17 +43,7 @@ Rectangle {
 					color: colorTheme.textColor;
 				}
 
-				MainText {
-					id: descriptionYear;
-					anchors.left: descriptionTitle.right;
-					anchors.right: parent.right;
-					anchors.bottom: descriptionTitle.bottom;
-					anchors.leftMargin: 10;
-					anchors.bottomMargin: 3;
-					color: colorTheme.subTextColor;
-				}
-
-				SmallText {
+				TinyText {
 					id: descriptionSlogan;
 					anchors.top: descriptionTitle.bottom;
 					anchors.left: parent.left;
@@ -69,34 +59,36 @@ Rectangle {
 					anchors.topMargin: 10;
 
 					KeyValueText {
-						id: descriptionGenres;
+						id: descriptionDirector;
 						key: "Director:";
 					}
 
 					KeyValueText {
-						id: descriptionDirector;
-						key: "Genres:";
+						id: descriptionCast;
+						key: "Cast:";
 					}
 
-					SmallText {
-						id: descriptionDuration;
-						color: colorTheme.subTextColor;
-					}
+					Row {
+						height: 23;
+						spacing: 30;
+						anchors.topMargin: 5;
 
-					Item {
-						height: imdbIcon.paintedHeight;
+						TinyText { id: genreText; }
+						TinyText { id: yearText; }
+						TinyText { id: durationText; }
 
-						Image {
-							id: imdbIcon;
-							source: "res/imdb.png";
-						}
+						Row {
+							height: 100%;
 
-						SmallText {
-							id: descriptionRating;
-							anchors.left: imdbIcon.right;
-							anchors.verticalCenter: imdbIcon.verticalCenter;
-							anchors.leftMargin: 10;
-							color: colorTheme.subTextColor;
+							Image {
+								id: imdbIcon;
+								width: 50;
+								height: 100%;
+								source: "res/imdb.png";
+								fillMode: Image.PreserveAspectFit;
+							}
+
+							TinyText { id: descriptionRating; }
 						}
 					}
 				}
@@ -152,13 +144,16 @@ Rectangle {
 		descriptionTitle.text = info.title
 		descriptionSlogan.text = info.slogan ? info.slogan : ""
 		descriptionText.text = info.description
-		descriptionYear.text = info.year.toString()
 		descriptionDirector.value = info.director
-		descriptionDuration.text = info.duration.toString() + " min"
+		descriptionCast.value = info.cast
 		descriptionRating.text = info.rating.imdb.toString()
-		descriptionGenres.value = info.genre[0]
 
+		var genre = ""
 		for (var i = 1; i < info.genre.length; ++i)
-			descriptionGenres.text += ", " + info.genre[i]
+			genre += info.genre[i] + " "
+
+		genreText.text = genre
+		yearText.text = info.year.toString()
+		durationText.text = info.duration.toString() + " min"
 	}
 }
