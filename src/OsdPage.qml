@@ -14,9 +14,9 @@ Activity {
 	Menu {
 		id: menu;
 		anchors.fill: parent;
-		anchors.topMargin: 70;
-		anchors.leftMargin: 50;
-		anchors.rightMargin: 50;
+		anchors.topMargin: 70 * consts.scaleY;
+		anchors.leftMargin: 50 * consts.scaleX;
+		anchors.rightMargin: 50 * consts.scaleX;
 
 		onItemFocused(item): {
 			if (item && item.preview && item.preview.length)

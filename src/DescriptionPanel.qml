@@ -9,7 +9,7 @@ Rectangle {
 
 	Rectangle {
 		id: descripationBackground;
-		width: height + 500;
+		width: height + 500 * consts.scaleY;
 		height: descriptionPoster.height;
 		anchors.centerIn: parent;
 		color: colorTheme.panelColor;
@@ -26,7 +26,7 @@ Rectangle {
 			anchors.left: descriptionPoster.right;
 			anchors.right: descripationBackground.right;
 			anchors.bottom: descriptionPoster.bottom;
-			anchors.margins: 10;
+			anchors.margins: 10 * consts.scaleY;
 			opacity: activeFocus ? 1.0 : 0.0;
 			clip: true;
 
@@ -56,7 +56,8 @@ Rectangle {
 					anchors.top: descriptionSlogan.bottom;
 					anchors.left: parent.left;
 					anchors.right: parent.right;
-					anchors.topMargin: 10;
+					anchors.topMargin: 10 * consts.scaleY;
+					spacing: 3 * consts.scaleY;
 
 					KeyValueText {
 						id: descriptionDirector;
@@ -71,9 +72,8 @@ Rectangle {
 					}
 
 					Row {
-						height: 23;
-						spacing: 30;
-						anchors.topMargin: 5;
+						height: 23 * consts.scaleY;
+						spacing: 30 * consts.scaleX;
 
 						TinyText { id: genreText; }
 						TinyText { id: yearText; }
@@ -84,7 +84,7 @@ Rectangle {
 
 							Image {
 								id: imdbIcon;
-								width: 50;
+								width: 50 * consts.scaleX;
 								height: 100%;
 								source: "res/imdb.png";
 								fillMode: Image.PreserveAspectFit;
@@ -97,18 +97,18 @@ Rectangle {
 
 				SmallText {
 					id: descriptionText;
-					height: 130;
+					height: 130 * consts.scaleY;
 					anchors.top: shortInfoLayout.bottom;
 					anchors.left: parent.left;
 					anchors.right: parent.right;
-					anchors.topMargin: 20;
-					anchors.rightMargin: 15;
+					anchors.topMargin: 20 * consts.scaleY;
+					anchors.rightMargin: 15 * consts.scaleX;
 					color: colorTheme.textColor;
 					wrapMode: Text.WordWrap;
 					clip: true;
 
 					onCompleted: {
-						var lines = 5
+						var lines = 6
 						this.style("display", "block");
 						this.style("display", "-webkit-box");
 						this.style("text-overflow", "ellipsis");

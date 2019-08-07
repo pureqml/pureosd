@@ -4,6 +4,7 @@ ActivityManager {
 	property string mountedPath;
 	anchors.fill: context;
 
+	Constants { id: consts; }
 	ColorTheme { id: colorTheme; }
 
 	//@using { src.OsdPage }
