@@ -61,11 +61,13 @@ Rectangle {
 					KeyValueText {
 						id: descriptionDirector;
 						key: "Director:";
+						visible: value;
 					}
 
 					KeyValueText {
 						id: descriptionCast;
 						key: "Cast:";
+						visible: value;
 					}
 
 					Row {
@@ -144,8 +146,8 @@ Rectangle {
 		descriptionTitle.text = info.title
 		descriptionSlogan.text = info.slogan ? info.slogan : ""
 		descriptionText.text = info.description
-		descriptionDirector.value = info.director
-		descriptionCast.value = info.cast
+		descriptionDirector.value = info.director ? info.director : ""
+		descriptionCast.value = info.cast ? info.cast : ""
 		descriptionRating.text = info.rating.imdb.toString()
 
 		var genre = ""
