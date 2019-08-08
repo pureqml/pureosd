@@ -100,6 +100,7 @@ Object {
 						"duration": 156,
 						"rating": { "imdb": 8.3 },
 						"genre": [ "Adventure", "Drama", "Thriller" ],
+						"cast": "Leonardo DiCaprio, Tom Hardy, Will Poulter",
 						"director": "Alejandro González Iñárritu"
 					}
 				}, {
@@ -115,6 +116,7 @@ Object {
 						"duration": 121,
 						"rating": { "imdb": 7.1 },
 						"genre": [ "Adventure", "Biography", "Drama" ],
+						"cast": "Jason Clarke, Ang Phula Sherpa, Thomas M. Wright",
 						"director": "Baltasar Kormákur"
 					}
 				}
@@ -134,6 +136,7 @@ Object {
 						"duration": 142,
 						"rating": { "imdb": 7.6 },
 						"genre": [ "Action", "Adventure", "Sci-Fi" ],
+						"cast": "Robert Downey Jr., Chris Evans, Mark Ruffalo",
 						"director": "Joss Whedon"
 					}
 				}, {
@@ -149,6 +152,7 @@ Object {
 						"duration": 109,
 						"rating": { "imdb": 7.4 },
 						"genre": [ "Crime", "Drama", "Thriller" ],
+						"cast": "Gerard Butler, Jamie Foxx, Leslie Bibb",
 						"director": "F. Gary Gray"
 					}
 				}, {
@@ -164,6 +168,7 @@ Object {
 						"duration": 164,
 						"rating": { "imdb": 8.5 },
 						"genre": [ "Action", "Thriller" ],
+						"cast": "Christian Bale, Tom Hardy, Anne Hathaway",
 						"director": "Christopher Nolan"
 					}
 				}, {
@@ -179,6 +184,7 @@ Object {
 						"duration": 112,
 						"rating": { "imdb": 8.0 },
 						"genre": [ "Action", "Sci-Fi" ],
+						"cast": "Sharlto Copley, David James, Jason Cope",
 						"director": "Neill Blomkamp"
 					}
 				}, {
@@ -194,6 +200,7 @@ Object {
 						"duration": 139,
 						"rating": { "imdb": 6.8 },
 						"genre": [ "Adventure", "Mystery", "Sci-Fi" ],
+						"cast": "Shailene Woodley, Theo James, Kate Winslet",
 						"director": "Neil Burger"
 					}
 				}, {
@@ -209,6 +216,7 @@ Object {
 						"duration": 126,
 						"rating": { "imdb": 6.6 },
 						"genre": [ "Action", "Adventure", "Sci-Fi" ],
+						"cast": "Arnold Schwarzenegger, Jason Clarke, Emilia Clarke",
 						"director": "Alan Taylor"
 					}
 				}, {
@@ -224,6 +232,7 @@ Object {
 						"duration": 120,
 						"rating": { "imdb": 8.2 },
 						"genre": [ "Action", "Adventure", "Sci-Fi" ],
+						"cast": "Tom Hardy, Charlize Theron, Nicholas Hoult",
 						"director": "George Miller"
 					}
 				}, {
@@ -239,6 +248,7 @@ Object {
 						"duration": 134,
 						"rating": { "imdb": 7.6 },
 						"genre": [ "Action", "Drama", "War" ],
+						"cast": "Brad Pitt, Shia LaBeouf, Logan Lerman",
 						"director": "David Ayer"
 					}
 				}, {
@@ -254,6 +264,7 @@ Object {
 						"duration": 150,
 						"rating": { "imdb": 6.1 },
 						"genre": [ "Action", "Adventure", "Drama" ],
+						"cast": "Christian Bale, Joel Edgerton, Ben Kingsley",
 						"director": "Ridley Scott"
 					}
 				}, {
@@ -269,6 +280,7 @@ Object {
 						"duration": 165,
 						"rating": { "imdb": 8.5 },
 						"genre": [ "Drama", "Western" ],
+						"cast": "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio",
 						"director": "Quentin Tarantino"
 					}
 				}, {
@@ -284,6 +296,7 @@ Object {
 						"duration": 130,
 						"rating": { "imdb": 7.2 },
 						"genre": [ "Action", "Crime", "Thriller" ],
+						"cast": "Vin Diesel, Paul Walker, Dwayne Johnson",
 						"director": "Justin Lin"
 					}
 				}, {
@@ -298,6 +311,7 @@ Object {
 						"duration": 148,
 						"rating": { "imdb": 7.0 },
 						"genre": [ "Action", "Adventure", "Thriller" ],
+						"cast": "Daniel Craig, Christoph Waltz, Léa Seydoux",
 						"director": "Sam Mendes"
 					}
 				}, {
@@ -313,6 +327,7 @@ Object {
 						"duration": 103,
 						"rating": { "imdb": 6.5 },
 						"genre": [ "Action", "Adventure" ],
+						"cast": "Sylvester Stallone, Jason Statham, Jet Li",
 						"director": "Sylvester Stallone"
 					}
 				}, {
@@ -328,6 +343,7 @@ Object {
 						"duration": 117,
 						"rating": { "imdb": 7.7 },
 						"genre": [ "Action", "Fantasy", "War" ],
+						"cast": "Gerard Butler, Lena Headey, David Wenham",
 						"director": "Zack Snyder"
 					}
 				}, {
@@ -343,6 +359,7 @@ Object {
 						"duration": 117,
 						"rating": { "imdb": 7.4 },
 						"genre": [ "Action", "Adventure", "Sci-Fi" ],
+						"cast": "Paul Rudd, Michael Douglas, Corey Stoll",
 						"director": "Peyton Reed"
 					}
 				}, {
@@ -357,6 +374,7 @@ Object {
 						"duration": 143,
 						"rating": { "imdb": 7.8 },
 						"genre": [ "Action", "Adventure", "Thriller" ],
+						"cast": "Daniel Craig, Javier Bardem, Naomie Harris",
 						"director": "Sam Mendes"
 					}
 				}, {
@@ -372,6 +390,7 @@ Object {
 						"duration": 132,
 						"rating": { "imdb": 7.8 },
 						"genre": [ "Action", "Adventure", "Sci-Fi" ],
+						"cast": "James McAvoy, Michael Fassbender, Jennifer Lawrence",
 						"director": "Matthew Vaughn"
 					}
 				}, {
@@ -387,6 +406,7 @@ Object {
 						"duration": 105,
 						"rating": { "imdb": 7.0 },
 						"genre": [ "Action", "Sci-Fi" ],
+						"cast": "James Franco, Andy Serkis, Freida Pinto",
 						"director": "Rupert Wyatt"
 					}
 				}
@@ -406,6 +426,7 @@ Object {
 						"duration": 108,
 						"rating": { "imdb": 7.7 },
 						"genre": [ "Drama", "Mystery", "Sci-Fi" ],
+						"cast": "Alicia Vikander, Domhnall Gleeson, Oscar Isaac",
 						"director": "Alex Garland"
 					}
 				}, {
@@ -421,6 +442,7 @@ Object {
 						"duration": 91,
 						"rating": { "imdb": 7.9 },
 						"genre": [ "Sci-Fi", "Thriller" ],
+						"cast": "Sandra Bullock, George Clooney, Ed Harris",
 						"director": "Alfonso Cuarón"
 					}
 				}, {
@@ -436,6 +458,7 @@ Object {
 						"duration": 113,
 						"rating": { "imdb": 7.9 },
 						"genre": [ "Action", "Adventure", "Sci-Fi" ],
+						"cast": "Tom Cruise, Emily Blunt, Bill Paxton",
 						"director": "Doug Liman"
 					}
 				}, {
@@ -451,6 +474,7 @@ Object {
 						"duration": 144,
 						"rating": { "imdb": 8.1 },
 						"genre": [ "Sci-Fi", "Adventure"],
+						"cast": "Matt Damon, Jessica Chastain, Kristen Wiig",
 						"director": "Ridley Scott"
 					}
 				}, {
@@ -466,6 +490,7 @@ Object {
 						"duration": 169,
 						"rating": { "imdb": 8.6 },
 						"genre": [ "Sci-Fi", "Drama", "Adventure"],
+						"cast": "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
 						"director": "Christopher Nolan"
 					}
 				}, {
@@ -481,6 +506,7 @@ Object {
 						"duration": 172,
 						"rating": { "imdb": 7.5 },
 						"genre": [ "Sci-Fi", "Drama" ],
+						"cast": "Tom Hanks, Halle Berry, Hugh Grant",
 						"director": "Tom Tykwer, Andy Wachowski"
 					}
 				}, {
@@ -496,6 +522,7 @@ Object {
 						"duration": 142,
 						"rating": { "imdb": 7.6 },
 						"genre": [ "Action", "Adventure", "Sci-Fi" ],
+						"cast": "Robert Downey Jr., Chris Evans, Mark Ruffalo",
 						"director": "Joss Whedon"
 					}
 				}, {
@@ -511,6 +538,7 @@ Object {
 						"duration": 117,
 						"rating": { "imdb": 7.4 },
 						"genre": [ "Action", "Adventure", "Sci-Fi" ],
+						"cast": "Paul Rudd, Michael Douglas, Corey Stoll",
 						"director": "Peyton Reed"
 					}
 				}, {
@@ -526,6 +554,7 @@ Object {
 						"duration": 132,
 						"rating": { "imdb": 7.8 },
 						"genre": [ "Action", "Adventure", "Sci-Fi" ],
+						"cast": "James McAvoy, Michael Fassbender, Jennifer Lawrence",
 						"director": "Matthew Vaughn"
 					}
 				}, {
@@ -541,6 +570,7 @@ Object {
 						"duration": 105,
 						"rating": { "imdb": 7.0 },
 						"genre": [ "Action", "Sci-Fi" ],
+						"cast": "James Franco, Andy Serkis, Freida Pinto",
 						"director": "Rupert Wyatt"
 					}
 				}
@@ -560,6 +590,7 @@ Object {
 						"duration": 138,
 						"rating": { "imdb": 7.3 },
 						"genre": [ "Crime", "Drama" ],
+						"cast": "Christian Bale, Amy Adams, Bradley Cooper",
 						"director": "David O. Russell"
 					}
 				}, {
@@ -575,6 +606,7 @@ Object {
 						"duration": 109,
 						"rating": { "imdb": 7.4 },
 						"genre": [ "Crime", "Drama", "Thriller" ],
+						"cast": "Gerard Butler, Jamie Foxx, Leslie Bibb",
 						"director": "F. Gary Gray"
 					}
 				}, {
@@ -590,6 +622,7 @@ Object {
 						"duration": 123,
 						"rating": { "imdb": 7.1 },
 						"genre": [ "Biography", "Crime", "Drama" ],
+						"cast": "Johnny Depp, Benedict Cumberbatch, Dakota Johnson",
 						"director": "Scott Cooper"
 					}
 				}, {
@@ -605,6 +638,7 @@ Object {
 						"duration": 158,
 						"rating": { "imdb": 7.8 },
 						"genre": [ "Crime", "Drama", "Mystery" ],
+						"cast": "Daniel Craig, Rooney Mara, Christopher Plummer",
 						"director": "David Fincher"
 					}
 				}, {
@@ -620,6 +654,7 @@ Object {
 						"duration": 140,
 						"rating": { "imdb": 7.0 },
 						"genre": [ "Crime", "Drama" ],
+						"cast": "Christian Bale, Johnny Depp, Christian Stolte",
 						"director": "Michael Mann"
 					}
 				}
@@ -639,6 +674,7 @@ Object {
 						"duration": 101,
 						"rating": { "imdb": 7.8 },
 						"genre": [ "Animation", "Adventure" ],
+						"cast": "John C. Reilly, Jack McBrayer, Jane Lynch",
 						"director": "Rich Moore"
 					}
 				}, {
@@ -654,6 +690,7 @@ Object {
 						"duration": 100,
 						"rating": { "imdb": 7.8 },
 						"genre": [ "Animation", "Action", "Adventure" ],
+						"cast": "Chris Pratt, Elizabeth Banks, Will Arnett",
 						"director": "Phil Lord"
 					}
 				}, {
@@ -669,6 +706,7 @@ Object {
 						"duration": 100,
 						"rating": { "imdb": 8.1 },
 						"genre": [ "Animation", "Adventure", "Comedy" ],
+						"cast": "Albert Brooks, Ellen DeGeneres, Alexander Gould",
 						"director": "Andrew Stanton"
 					}
 				}, {
@@ -683,6 +721,7 @@ Object {
 						"duration": 102,
 						"rating": { "imdb": 7.6 },
 						"genre": [ "Animation", "Adventure", "Comedy" ],
+						"cast": "Kristen Bell, Idina Menzel, Jonathan Groff",
 						"director": "Chris Buck"
 					}
 				}, {
@@ -698,6 +737,7 @@ Object {
 						"duration": 90,
 						"rating": { "imdb": 7.9 },
 						"genre": [ "Animation", "Adventure", "Comedy" ],
+						"cast": "Mike Myers, Eddie Murphy, Cameron Diaz",
 						"director": "Andrew Adamson"
 					}
 				}, {
@@ -713,6 +753,7 @@ Object {
 						"duration": 93,
 						"rating": { "imdb": 7.2 },
 						"genre": [ "Animation", "Adventure", "Comedy" ],
+						"cast": "Mike Myers, Eddie Murphy, Cameron Diaz",
 						"director": "Andrew Adamson"
 					}
 				}, {
@@ -728,6 +769,7 @@ Object {
 						"duration": 93,
 						"rating": { "imdb": 6.4 },
 						"genre": [ "Animation", "Adventure", "Comedy" ],
+						"cast": "Mike Myers, Cameron Diaz, Eddie Murphy",
 						"director": "Mike Mitchell"
 					}
 				}
@@ -747,6 +789,7 @@ Object {
 						"duration": 28,
 						"rating": { "imdb": 8.6 },
 						"genre": [ "Comedy", "Drama" ],
+						"cast": "Kevin Connolly, Adrian Grenier, Kevin Dillon",
 						"director": "Doug Ellin"
 					}
 				}, {
@@ -761,6 +804,7 @@ Object {
 						"duration": 119,
 						"rating": { "imdb": 7.8 },
 						"genre": [ "Comedy", "Drama" ],
+						"cast": "Michael Keaton, Zach Galifianakis, Edward Norton",
 						"director": "Alejandro GonzÃ¡lez"
 					}
 				}, {
@@ -776,6 +820,7 @@ Object {
 						"duration": 131,
 						"rating": { "imdb": 7.6 },
 						"genre": [ "Drama", "War" ],
+						"cast": "Sophie Nélisse, Geoffrey Rush, Emily Watson",
 						"director": "Brian Percival"
 					}
 				}, {
@@ -791,6 +836,7 @@ Object {
 						"duration": 97,
 						"rating": { "imdb": 7.4 },
 						"genre": [ "Adventure", "Comedy", "Drama" ],
+						"cast": "Jack Nicholson, Morgan Freeman, Sean Hayes",
 						"director": "Rob Reiner"
 					}
 				}, {
@@ -806,6 +852,7 @@ Object {
 						"duration": 125,
 						"rating": { "imdb": 4.1 },
 						"genre": [ "Drama", "Romance" ],
+						"cast": "Dakota Johnson, Jamie Dornan, Jennifer Ehle",
 						"director": "Sam Taylor-Johnson"
 					}
 				}, {
@@ -821,6 +868,7 @@ Object {
 						"duration": 121,
 						"rating": { "imdb": 7.2 },
 						"genre": [ "Comedy" ],
+						"cast": "Robert De Niro, Anne Hathaway, Rene Russo",
 						"director": "Nancy Meyers"
 					}
 				}, {
@@ -836,6 +884,7 @@ Object {
 						"duration": 120,
 						"rating": { "imdb": 8.0 },
 						"genre": [ "Drama", "Romance" ],
+						"cast": "Dev Patel, Freida Pinto, Saurabh Shukla",
 						"director": "Danny Boyle"
 					}
 				}, {
@@ -851,6 +900,7 @@ Object {
 						"duration": 122,
 						"rating": { "imdb": 7.8 },
 						"genre": [ "Comedy", "Drama", "Romance" ],
+						"cast": "Bradley Cooper, Jennifer Lawrence, Robert De Niro",
 						"director": "David O. Russell"
 					}
 				}, {
@@ -866,6 +916,7 @@ Object {
 						"duration": 170,
 						"rating": { "imdb": 7.5 },
 						"genre": [ "Biography", "Drama" ],
+						"cast": "Leonardo DiCaprio, Cate Blanchett, Kate Beckinsale",
 						"director": "Martin Scorsese"
 					}
 				}, {
@@ -881,6 +932,7 @@ Object {
 						"duration": 120,
 						"rating": { "imdb": 7.8 },
 						"genre": [ "Biography", "Drama" ],
+						"cast": "Jesse Eisenberg, Andrew Garfield, Justin Timberlake",
 						"director": "David Fincher"
 					}
 				}, {
@@ -896,6 +948,7 @@ Object {
 						"duration": 114,
 						"rating": { "imdb": 8.1 },
 						"genre": [ "Biography", "Drama", "Thriller" ],
+						"cast": "Benedict Cumberbatch, Keira Knightley, Matthew Goode",
 						"director": "Morten Tyldum"
 					}
 				}, {
@@ -911,6 +964,7 @@ Object {
 						"duration": 105,
 						"rating": { "imdb": 6.4 },
 						"genre": [ "Biography", "Drama", "History" ],
+						"cast": "Meryl Streep, Jim Broadbent, Richard E. Grant",
 						"director": "Phyllida Lloyd"
 					}
 				}
@@ -930,6 +984,7 @@ Object {
 						"duration": 114,
 						"rating": { "imdb": 8.1 },
 						"genre": [ "Biography", "Drama", "Thriller" ],
+						"cast": "Benedict Cumberbatch, Keira Knightley, Matthew Goode",
 						"director": "Morten Tyldum"
 					}
 				}
@@ -948,6 +1003,7 @@ Object {
 						"duration": 28,
 						"rating": { "imdb": 8.6 },
 						"genre": [ "Comedy", "Drama" ],
+						"cast": "Kevin Connolly, Adrian Grenier, Kevin Dillon",
 						"director": "Doug Ellin"
 					}
 				}, {
@@ -963,6 +1019,7 @@ Object {
 						"duration": 122,
 						"rating": { "imdb": 7.8 },
 						"genre": [ "Comedy", "Drama", "Romance" ],
+						"cast": "Bradley Cooper, Jennifer Lawrence, Robert De Niro",
 						"director": "David O. Russell"
 					}
 				}, {
@@ -978,6 +1035,7 @@ Object {
 						"duration": 95,
 						"rating": { "imdb": 6.6 },
 						"genre": [ "Comedy" ],
+						"cast": "Robert Downey Jr., Zach Galifianakis, Michelle Monaghan",
 						"director": "Todd Phillips"
 					}
 				}, {
@@ -993,6 +1051,7 @@ Object {
 						"duration": 100,
 						"rating": { "imdb": 5.9 },
 						"genre": [ "Comedy" ],
+						"cast": "Bradley Cooper, Zach Galifianakis, Ed Helms",
 						"director": "Todd Phillips"
 					}
 				}, {
@@ -1008,6 +1067,7 @@ Object {
 						"duration": 100,
 						"rating": { "imdb": 6.1 },
 						"genre": [ "Comedy", "Crime" ],
+						"cast": "Will Ferrell, Kevin Hart, Alison Brie",
 						"director": "Etan Cohen"
 					}
 				}
@@ -1027,6 +1087,7 @@ Object {
 						"duration": 170,
 						"rating": { "imdb": 7.5 },
 						"genre": [ "Biography", "Drama" ],
+						"cast": "Leonardo DiCaprio, Cate Blanchett, Kate Beckinsale",
 						"director": "Martin Scorsese"
 					}
 				}, {
@@ -1042,6 +1103,7 @@ Object {
 						"duration": 120,
 						"rating": { "imdb": 7.8 },
 						"genre": [ "Biography", "Drama" ],
+						"cast": "Jesse Eisenberg, Andrew Garfield, Justin Timberlake",
 						"director": "David Fincher"
 					}
 				}, {
@@ -1057,6 +1119,7 @@ Object {
 						"duration": 114,
 						"rating": { "imdb": 8.1 },
 						"genre": [ "Biography", "Drama", "Thriller" ],
+						"cast": "Benedict Cumberbatch, Keira Knightley, Matthew Goode",
 						"director": "Morten Tyldum"
 					}
 				}, {
@@ -1072,6 +1135,7 @@ Object {
 						"duration": 123,
 						"rating": { "imdb": 7.7 },
 						"genre": [ "Biography", "Drama", "Romance" ],
+						"cast": "Eddie Redmayne, Felicity Jones, Tom Prior",
 						"director": "James Marsh"
 					}
 				}, {
@@ -1087,6 +1151,7 @@ Object {
 						"duration": 123,
 						"rating": { "imdb": 7.1 },
 						"genre": [ "Biography", "Crime", "Drama" ],
+						"cast": "Johnny Depp, Benedict Cumberbatch, Dakota Johnson",
 						"director": "Scott Cooper"
 					}
 				}, {
@@ -1102,6 +1167,7 @@ Object {
 						"duration": 105,
 						"rating": { "imdb": 6.4 },
 						"genre": [ "Biography", "Drama", "History" ],
+						"cast": "Meryl Streep, Jim Broadbent, Richard E. Grant",
 						"director": "Phyllida Lloyd"
 					}
 				}
