@@ -102,6 +102,7 @@ Rectangle {
 					anchors.left: parent.left;
 					anchors.right: parent.right;
 					anchors.topMargin: 20;
+					anchors.rightMargin: 15;
 					color: colorTheme.textColor;
 					wrapMode: Text.WordWrap;
 					clip: true;
