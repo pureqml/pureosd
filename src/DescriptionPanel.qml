@@ -152,7 +152,7 @@ Rectangle {
 		descriptionRating.text = info.rating.imdb.toString()
 
 		var genre = ""
-		for (var i = 1; i < info.genre.length; ++i)
+		for (var i = 0; i < info.genre.length; ++i)
 			genre += info.genre[i] + " "
 
 		genreText.text = genre
