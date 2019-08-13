@@ -26,9 +26,11 @@ Activity {
 
 	PlayerOsd {
 		id: playerOsd;
+		progress: player.progress;
+		duration: player.duration;
 
-		onLeftPressed: { player.seek(-10) }
-		onRightPressed: { player.seek(10) }
+		onLeftPressed: { player.seek(-10); this.show() }
+		onRightPressed: { player.seek(10); this.show() }
 
 		onSelectPressed: {
 			if (player.paused)
