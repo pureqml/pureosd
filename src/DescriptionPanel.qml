@@ -75,9 +75,9 @@ Rectangle {
 						height: 23 * consts.scaleY;
 						spacing: 30 * consts.scaleX;
 
-						TinyText { id: genreText; }
-						TinyText { id: yearText; }
-						TinyText { id: durationText; }
+						TinyText { id: genreText; anchors.verticalCenter: parent.verticalCenter; }
+						TinyText { id: yearText; anchors.verticalCenter: parent.verticalCenter; }
+						TinyText { id: durationText; anchors.verticalCenter: parent.verticalCenter; }
 
 						Row {
 							height: 100%;
@@ -90,7 +90,7 @@ Rectangle {
 								fillMode: Image.PreserveAspectFit;
 							}
 
-							TinyText { id: descriptionRating; }
+							TinyText { id: descriptionRating; anchors.verticalCenter: parent.verticalCenter; }
 						}
 					}
 				}
