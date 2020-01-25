@@ -3,6 +3,10 @@
 	"platforms": ["web", "webos", "tizen", "netcast", "orsay", "androidtv"],
 	"properties": {
 		"title": "pureosd",
+		"virtual.width": 1280,
+		"virtual.height": 720,
+		"resolutionWidth": 1280,
+		"resolutionHeight": 720,
 		"author": {
 			"name": "Alexey Pobery",
 			"email": "poberyaa@gmail.com",

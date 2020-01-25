@@ -1,6 +1,7 @@
 Activity {
 	id: osdPageProto;
 	anchors.fill: parent;
+	clip: true;
 
 	Rectangle {
 		color: "#000";
@@ -14,9 +15,9 @@ Activity {
 	Menu {
 		id: menu;
 		anchors.fill: parent;
-		anchors.topMargin: 70 * consts.scaleY;
-		anchors.leftMargin: 50 * consts.scaleX;
-		anchors.rightMargin: 50 * consts.scaleX;
+		anchors.topMargin: 70s;
+		anchors.leftMargin: 50s;
+		anchors.rightMargin: 50s;
 
 		onItemFocused(item): {
 			if (item && item.preview && item.preview.length)

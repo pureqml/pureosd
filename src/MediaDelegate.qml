@@ -1,7 +1,7 @@
 Item {
 	id: mediaDelegateProto;
-	width: iconImage.defaultWidth + 20;
-	height: iconImage.defaultHeight;
+	width: 200s;
+	height: iconImage.height;
 	transform.scaleX: activeFocus ? 1.075 : 1.0;
 	transform.scaleY: activeFocus ? 1.075 : 1.0;
 
@@ -12,11 +12,9 @@ Item {
 
 	Image {
 		id: iconImage;
-		property int defaultWidth: defaultHeight * 2.0 / 3;
-		property int defaultHeight: context.height * 2.3 / 7;
 		anchors.centerIn: parent;
-		width: height - 100;
-		height: defaultHeight;
+		width: 200s;
+		height: 300s;
 		fillMode: Image.Stretch;
 		source: model.icon;
 	}

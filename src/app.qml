@@ -2,7 +2,8 @@ ActivityManager {
 	id: mainWindow;
 	property variant currentPlay;
 	property string mountedPath;
-	anchors.fill: context;
+	width: 1280s;
+	height: 720s;
 
 	Constants { id: consts; }
 	ColorTheme { id: colorTheme; }

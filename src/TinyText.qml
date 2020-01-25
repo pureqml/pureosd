@@ -1,4 +1,4 @@
 Text {
-	font.pixelSize: 18;
+	font.pixelSize: 14s;
 	color: colorTheme.subTextColor;
 }

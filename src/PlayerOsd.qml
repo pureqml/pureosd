@@ -9,7 +9,7 @@ Item {
 	Rectangle {
 		property real progress: parent.duration > 0 ? parent.progress / parent.duration : 0;
 		width: 100%;
-		height: 50 * consts.scaleY;
+		height: 50s;
 		color: colorTheme.panelColor;
 		anchors.bottom: parent.bottom;
 
@@ -25,8 +25,8 @@ Item {
 			id: progressText;
 			anchors.left: parent.left;
 			anchors.verticalCenter: parent.verticalCenter;
-			anchors.leftMargin: 30 * consts.scaleX;
-			font.pixelSize: 32 * consts.scaleY;
+			anchors.leftMargin: 30s;
+			font.pixelSize: 32s;
 			color: "#fff";
 		}
 
@@ -34,8 +34,8 @@ Item {
 			id: durationText;
 			anchors.right: parent.right;
 			anchors.verticalCenter: parent.verticalCenter;
-			anchors.rightMargin: 30 * consts.scaleX;
-			font.pixelSize: 32 * consts.scaleY;
+			anchors.rightMargin: 30s;
+			font.pixelSize: 32s;
 			color: "#fff";
 		}
 	}

@@ -14,8 +14,8 @@ Item {
 		id: innerMenuView;
 		anchors.fill: parent;
 		keyNavigationWraps: false;
-		positionMode: ListView.Center;
 		content.cssTranslatePositioning: true;
+		positionMode: ListView.Center;
 		animationDuration: 300;
 		model: menuModel;
 		delegate: MenuDelegate {

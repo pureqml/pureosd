@@ -4,7 +4,7 @@ Item {
 	signal itemSelected;
 	property bool isCurrent: parent.currentIndex == model.index;
 	property Object content: model.content;
-	height: 320 + topLabel.paintedHeight + 30;
+	height: 320s + topLabel.paintedHeight + 30s;
 	width: parent.width;
 
 	ListModel { id: menuDelegateModel; }
@@ -13,7 +13,7 @@ Item {
 		id: topLabel;
 		anchors.top: parent.top;
 		anchors.left: parent.left;
-		anchors.leftMargin: 10;
+		anchors.leftMargin: 10s;
 		color: colorTheme.textColor;
 		text: model.text;
 		font.shadow: true;
@@ -25,15 +25,15 @@ Item {
 		anchors.left: parent.left;
 		anchors.right: parent.right;
 		anchors.bottom: parent.bottom;
-		anchors.topMargin: 10;
+		anchors.topMargin: 10s;
 		orientation: ListView.Horizontal;
 		positionMode: ListView.Center;
 		keyNavigationWraps: false;
 		content.cssTranslatePositioning: true;
 		animationDuration: 300;
+		spacing: 20s;
 		model: menuDelegateModel;
 		delegate: MediaDelegate { }
-		spacing: 10;
 
 		choose: {
 			if (!this.count)

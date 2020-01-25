@@ -1,3 +1,3 @@
 Text {
-	font.pixelSize: 22;
+	font.pixelSize: 18s;
 }
