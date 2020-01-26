@@ -26,7 +26,7 @@ Item {
 		border.width: 5;
 		opacity: parent.activeFocus ? 1.0 : 0.0;
 
-		Behavior on opacity { Animation { duration: 200; } }
+		Behavior on opacity { Animation { duration: consts.delegateAnimationDuration; } }
 	}
 
 	Rectangle {
@@ -53,8 +53,8 @@ Item {
 			clip: true;
 		}
 
-		Behavior on opacity { Animation { duration: 200; } }
+		Behavior on opacity { Animation { duration: consts.delegateAnimationDuration; } }
 	}
 
-	Behavior on transform { Animation { duration: 200; } }
+	Behavior on transform { Animation { duration: consts.delegateAnimationDuration; } }
 }

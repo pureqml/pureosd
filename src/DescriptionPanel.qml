@@ -133,7 +133,7 @@ Rectangle {
 				}
 			}
 
-			Behavior on opacity { Animation { duration: 300; } }
+			Behavior on opacity { Animation { duration: consts.animationDuration; } }
 		}
 	}
 

@@ -14,5 +14,5 @@ Rectangle {
 		text: buttonProto.text;
 	}
 
-	Behavior on color { ColorAnimation { duration: 300; } }
+	Behavior on color { ColorAnimation { duration: consts.animationDuration; } }
 }

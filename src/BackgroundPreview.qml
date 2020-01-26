@@ -24,5 +24,5 @@ Image {
 		updatePreviewTimer.restart()
 	}
 
-	Behavior on backgroundImage { Animation { duration: 300; } }
+	Behavior on backgroundImage { Animation { duration: consts.animationDuration; } }
 }

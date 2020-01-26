@@ -18,7 +18,7 @@ Item {
 			height: 100%;
 			color: colorTheme.accentColor;
 
-			Behavior on width { Animation { duration: 300; } }
+			Behavior on width { Animation { duration: consts.animationDuration; } }
 		}
 
 		Text {
@@ -49,16 +49,8 @@ Item {
 
 	show: { this.display = true; displayTimer.restart() }
 
-	intToTime(value): {
-		var secondsTotal = Math.floor(value)
-		var minutes = Math.floor(secondsTotal / 60) % 60
-		var seconds = Math.floor(secondsTotal % 60)
-		var hours = Math.floor(secondsTotal / 3600)
-		return (hours < 10 ? "0" + hours : hours) + ":" + (minutes < 10 ? "0" + minutes : minutes) + ":" + (seconds < 10 ? "0" + seconds : seconds)
-	}
+	onProgressChanged: { progressText.text = consts.intToTime(value) }
+	onDurationChanged: { durationText.text = consts.intToTime(value) }
 
-	onProgressChanged: { progressText.text = this.intToTime(value) }
-	onDurationChanged: { durationText.text = this.intToTime(value) }
-
-	Behavior on opacity { Animation { duration: 300; } }
+	Behavior on opacity { Animation { duration: consts.animationDuration; } }
 }
