@@ -1,7 +1,5 @@
 ActivityManager {
 	id: mainWindow;
-	property variant currentPlay;
-	property string mountedPath;
 	width: 1280s;
 	height: 720s;
 

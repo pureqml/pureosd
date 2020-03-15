@@ -25,7 +25,6 @@ Activity {
 		}
 
 		onItemSelected(item): {
-			mainWindow.currentPlay = item
 			if (item.program) {
 				osdPageProto.push("player", item)
 			} else {
