@@ -40,11 +40,12 @@ Item {
 			return
 		}
 
-		menuModel.reset();
+		var modelData = []
 		for (var i in data.root) {
 			var target = data.root[i].target
-			menuModel.append({ "text": data.root[i].text, "content": data[target] })
+			modelData.push({ "text": data.root[i].text, "content": data[target] })
 		}
+		menuModel.assign(modelData)
 	}
 
 	show: {
