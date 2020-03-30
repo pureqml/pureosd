@@ -12,7 +12,8 @@
 			"email": "poberyaa@gmail.com",
 			"organization": "pureqml",
 			"site": "https://pureqml.com/"
-		}
+		},
+		"domain": "com.pureqml"
 	},
 	"templater": "jinja2"
 }
