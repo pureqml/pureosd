@@ -7,6 +7,8 @@ Item {
 	height: 320s + topLabel.paintedHeight + 30s;
 	width: parent.width;
 
+	property int selectedItemIndex: model.selectedIndex;
+
 	ListModel { id: menuDelegateModel; }
 
 	MainText {
@@ -34,6 +36,7 @@ Item {
 		spacing: 20s;
 		model: menuDelegateModel;
 		delegate: MediaDelegate { }
+		currentIndex: parent.selectedItemIndex;
 
 		choose: {
 			if (!this.count)

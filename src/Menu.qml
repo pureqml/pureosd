@@ -20,6 +20,9 @@ Item {
 		model: menuModel;
 		delegate: MenuDelegate {
 			onItemFocused(item): {
+				var row = innerMenuView.currentIndex
+				log('menu item focused', row, item.index)
+				menuModel.setProperty(row, 'selectedIndex', item.index)
 				octoMenuProto.itemFocused(item)
 			}
 
@@ -41,7 +44,7 @@ Item {
 		var modelData = []
 		for (var i in data.root) {
 			var target = data.root[i].target
-			modelData.push({ "text": data.root[i].text, "content": data[target] })
+			modelData.push({ "text": data.root[i].text, "content": data[target], "selectedIndex" : 0 })
 		}
 		menuModel.assign(modelData)
 	}
