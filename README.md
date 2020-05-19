@@ -1,6 +1,8 @@
 # PureOSD
 PureQML app example for web browser and Smart TV
 
+![PureOSD Screenshot](screenshot.jpg)
+
 # Build & Install
 Clone:
 ```
