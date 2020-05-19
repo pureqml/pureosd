@@ -12,8 +12,6 @@ Item {
 
 	ListView {
 		id: innerMenuView;
-
-		prerender: 1000; //fixme: implement prerender-all
 		anchors.fill: parent;
 		keyNavigationWraps: false;
 		content.cssTranslatePositioning: true;
