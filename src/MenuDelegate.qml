@@ -69,7 +69,6 @@ Item {
 	onContentChanged: {
 		if (!value)
 			return
-		menuDelegateModel.clear();
-		menuDelegateModel.append(value)
+		menuDelegateModel.assign(value)
 	}
 }
