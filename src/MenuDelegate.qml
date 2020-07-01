@@ -32,7 +32,7 @@ Item {
 		positionMode: ListView.Center;
 		keyNavigationWraps: false;
 		content.cssTranslatePositioning: true;
-		animationDuration: 300;
+		animationDuration: menuDelegateProto.activeFocus ? 300 : 0;
 		spacing: 20s;
 		model: menuDelegateModel;
 		delegate: MediaDelegate { }
