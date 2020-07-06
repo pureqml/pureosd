@@ -44,6 +44,7 @@ Item {
 			if (this.currentIndex >= this.count)
 				this.currentIndex = 0
 
+			this.positionViewAtIndex(this.currentIndex)
 			menuDelegateProto.itemFocused(this.model.get(this.currentIndex))
 		}
 
